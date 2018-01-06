@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div#wrap {
+  width: 1280px;
+  height: auto;
+  margin: auto;
+  padding-left: 119px;
+}
+
+section.bloc {
+  width: 949px;
+  height: 752px;
+  float: left;
+  margin-top: 139px;
+}
+
+section.bloc:nth-child(2){
+  height: 434px;
+}
+
+section.bloc:nth-child(3){
+  height: 571px;
+}
+
+section.bloc:nth-child(4){
+  height: 573px;
+}
+
+section.bloc:nth-child(5){
+  height: 388px;
+}
+
+section.bloc:nth-child(6){
+  height: 367px;
+
+}
+
+article.rosa {
+  background: url(../images/rosa.jpg) 0 0 no-repeat;
+  max-height: 100%;
+  max-width: 100%;
+  width: 526px;
+  height: 752px;
+  background-size: contain;
+  float: left;
+  line-height: 752px;
+}
+
+h2.titre {
+  color: white;
+  font-size: 160pt;
+}
+
+h3 {
+  font-size: 50px;
+  text-align: center;
+  }
+
+span { color: black;}
+
+.line {line-height: 752px;}
+
+h2.right {text-align: right;}
+
+h2.left {text-align: left;}
+
+article.txt {
+  width: 423px;
+  height: 752px;
+  float: left;
+}
+
+article.bloc1 {
+  width: 460px;
+  height: 571px;
+  float: left;
+  background: url(../images/bloc1.gif) 0 0 no-repeat;
+}
+
+article.droite {
+  width: 489px;
+  height: 571px;
+  box-shadow: 2px 0px 60px #cfddea;
+  float: left;
+  padding: 4px;
+}
+
+article.pin {
+  width: 481px;
+  height: 329px;
+  background: url(../images/pin.jpg) 0 0 no-repeat;
+}
+
+p {
+  padding: 20px;
+  line-height: 24px;
+}
+
+.btn {
+  border-radius: 20px;
+  border: 1px solid crimson;
+  width: 152px;
+  height: 37px;
+  background: white;
+  display: block;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  line-height: 37px;
+  }
+
+.btn:hover, a:hover{
+  background: crimson;
+  color: white;
+}
+
+.position {
+  position: relative;
+  bottom: 36px;
+}
+
+span.position {
+  color: black;
+}
+
+article.gauche {
+  width: 499px;
+  height: 573px;
+  float: left;
+  box-shadow: 2px 0px 60px #cfddea;
+  padding: 8px;
+}
+
+article.noel{
+  width: 482px;
+  height: 355px;
+  background: url(../images/noel.jpg) 0 0 no-repeat;
+}
+
+article.bloc2{
+  width: 450px;
+  height: 573px;
+  float: left;
+  background: url(../images/bloc2.gif) 0 0 no-repeat;
+}
+
+.centre {
+  text-align: center;
+}
+
+article.phone {
+  width: 521px;
+  height: 327px;
+  float: left;
+  background: url(../images/phone.jpg) 0 0 no-repeat;
+  text-indent: -900px;
+}
+
+p.contact {
+  padding-left: 37px;
+  margin-top: 50px;
+  height: 317px;
+  width: 428px;
+  float: left;
+}
+
+header.pop {
+  position: relative;
+  top: 54px;
+  left: 325px;
+  z-index: 1;
+  background: white;
+  box-shadow: 2px 0px 60px #cfddea;
+  width: 391px;
+  height: 58px;
+  line-height: 58px;
+}
+
+h3.position2{
+  top: 0px;
+  position: absolute;
+  left: 45px;
+  /* bottom: 325px; "if use 'position: relative;'" */
+}
+
+.sabuj {
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+footer {
+  background: #1f2022;
+  width:100%;
+  height: 460px;
+  float: left;
+  margin-top: 467px;
+}
+
+.ombre {
+  box-shadow: 2px 31px 24px #eef7fc;
+}
+
+.bd {
+  background: url(../images/bord-droit.gif) 0 0 no-repeat;
+  width: 122px;
+  height: 367px;
+  float: left;
+  margin-top: 139px;
+}
+
+section.nav {width: 250px;
+height: 222;
+position: fixed;
+top: 10px;
+right: 0px;
+/* background: gray; "test for menu"*/
+}
+
+div.menu {
+  width: 30px;
+  float: left;
+  margin-right: 25px;
+}
+
+div.menu > li {
+  display: block;
+  width: 30px;
+  height: 20px;
+  text-align: center;
+}
+
+div.reds {
+  background: crimson;
+  width: 2px;
+  height: 130px;
+  float: left;
+}
+
+ul { list-style: none;}
+
+nav {
+  width: 168px;
+  float: left;
+  }
+
+nav ul li {
+  display: block;
+  width: 168px;
+  text-align: center;
+  line-height: 21px;
+}
+
+nav ul li a {
+text-decoration: none;
+color: black;
+display: block;
+}
+
+span.us {
+  color: crimson;
+}
+
+.anim {
+  animation: haut 1s ease-in 1 forwards
+}
+
+@keyframes haut {
+  0%{margin-top: -100%;
+  color: transparent}
+  /* 50%{color: red}
+  80%{color: red} test*/
+  80%{color: transparent}
+  100%{margin-top: 0%}
+}
+
+.anim2 {animation: opacite 3s infinite;}
+
+@keyframes opacite {
+0%{color: #99ebff}
+100%{color: #00ccff}
+0%{color: #99ebff}
+}
